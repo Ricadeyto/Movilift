@@ -67,6 +67,148 @@ section { overflow: hidden; }
     Spacing & Alignment 
 ------------------------------------------*/
 
+
+.doble-carrusel{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carrusel{
+    width: 48%;
+}
+
+.carrusel img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.business_item{
+    text-align: center;
+}
+
+.titulo-productos{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.lista-productos{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-productos li{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.navbar-top a{
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-top i{
+    color: rgb(255, 255, 255) !important;
+}
+
+.contacto-section{
+    background: #f5f9ff;
+    padding: 80px 0;
+}
+
+.contacto-box{
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.contacto-titulo{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 40px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #dbeafe;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color: #2563eb;
+}
+
+.btn-contacto{
+    width: 100%;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-contacto:hover{
+    background: #2563eb;
+}
+
+
+.widget_ab_item_text a{
+    color: white;
+    text-decoration: none;
+}
+
+.widget_ab_item_text a:hover{
+    color: #60a5fa;
+}
+
+.widget_about p,
+.widget_about h6,
+.widget_about a,
+.widget_about i{
+    color: white !important;
+}
+
+.widget_newsletter p,
+.widget_newsletter h6,
+.widget_newsletter a,
+.widget_newsletter i{
+    color: white !important;
+}
+
+.widget_newsletter .list-inline i{
+    font-size: 35px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.widget_newsletter .list-inline i:hover{
+    transform: scale(1.2);
+}
+
 .roomy-100 {
     padding-top: 100px;
     padding-bottom: 100px;
